@@ -122,7 +122,7 @@ arcToPath { id, x1, y1, x2, y2, largeArcFlag, color } =
     ++ " z"
 
 
-getArcs : Dataset -> List (Svg.Svg Maybe)
+getArcs : Dataset -> List (Svg.Svg a)
 getArcs dataset =
   List.indexedMap
     (\index datum ->
@@ -146,7 +146,7 @@ getArcs dataset =
 
     Chart.pie 300 [{color = "#0ff", value = 3}, {color = "purple", value = 27}]
 -}
-pie : Int -> Dataset -> Svg.Svg Maybe
+pie : Int -> Dataset -> Svg.Svg a
 pie diameter dataset =
   let
     diameterString =
