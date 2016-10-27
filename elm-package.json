@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "summary": "An SVG chart library",
     "repository": "https://github.com/camjc/elm-chart.git",
     "license": "BSD3",
