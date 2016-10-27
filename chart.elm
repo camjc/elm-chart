@@ -156,5 +156,6 @@ pie diameter dataset =
       [ Svg.Attributes.viewBox "-0.5 -0.5 1 1"
       , Svg.Attributes.width diameterString
       , Svg.Attributes.height diameterString
+      , Svg.Attributes.style "transform: rotate(-90deg)"
       ]
       (getArcs dataset)
