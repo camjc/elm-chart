@@ -1,4 +1,4 @@
-module Main exposing (main)
+module Main exposing (..)
 
 import Chart
 import Svg
@@ -6,4 +6,4 @@ import Svg
 
 main : Svg.Svg a
 main =
-  Chart.pie 300 [ { color = "#0ff", value = 3 }, { color = "purple", value = 27 } ]
+    Chart.pie 300 [ { color = "#0ff", value = 3 }, { color = "purple", value = 27 } ]
